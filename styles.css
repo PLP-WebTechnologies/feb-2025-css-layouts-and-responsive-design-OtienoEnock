@@ -1,0 +1,84 @@
+    
+h1,h2{
+    text-align: center;
+}
+body{
+    padding: 20px;
+    background-color: rgb(201, 201, 201);
+    width: 100%;
+}
+
+.roam{
+    border: 1px;
+    padding: 5px;
+    margin: 4px;
+    background-color: green;
+    color: white;
+    border-radius: 5%;
+    font-size: 14px;
+    width: 50px;
+    text-align: center;
+}
+.contact{
+    border: 1px;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 5%;
+    font-size: 14px;
+    color: blue;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    @media screen and (max-width: 600px){
+        flex-direction: column;}
+}
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon{
+    width: 30px;
+    height:30px;
+
+}
+
+p{
+    text-align: left;
+}
+.profile-container{
+    width: 30%;
+    max-width: 200px;
+    height: auto;
+}
+
+.profile_picture{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+    position: absolute;
+    top: 5px;
+    right: 1px;
+}
+footer{
+    width: 100%;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 5%;
+}
+header{
+    width: 100%;
+    background-color: rgb(247, 171, 7);
+    padding: 5px;
+    @media screen and (max-width:100%){
+
+
+    }
+
+}
+
